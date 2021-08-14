@@ -1,0 +1,137 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    width: 30%;
+    height: 600px;
+    background: orange;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.inner1,
+.inner2 {
+    background: aqua;
+    width: 95%;
+    height: 290px;
+}
+
+.box1 {
+    width: 30%;
+    height: 600px;
+    background: orange;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1,
+.sec2 {
+    background: aqua;
+    width: 45%;
+    height: 265px;
+    color: black;
+    text-align: center;
+}
+
+.sec3 {
+    width: 95%;
+    height: 265px;
+    background: aqua;
+    color: black;
+    text-align: center;
+}
+
+.box2 {
+    width: 30%;
+    height: 600px;
+    background: orange;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.sect1 {
+    background: aqua;
+    width: 45%;
+    height: 260px;
+    margin: 20px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.sect2 {
+    background: aqua;
+width: 45%;
+height: 260px;
+    position: absolute;
+    right: 0;
+}
+
+.sect4 {
+    background: aqua;
+    width: 45%;
+    height: 260px;
+    margin: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 25px;
+    margin-bottom: 40px;
+}
+
+.sect3 {
+    background: aqua;
+    width: 45%;
+    height: 260px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+
+#scrollToTopBtn {
+    background-color: green;
+    border: none;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    width: 85px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 768px) {}
